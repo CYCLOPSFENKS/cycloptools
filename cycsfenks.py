@@ -5,5 +5,6 @@ print("UÇBİRİM GÜNCELLEME[1]\n CYCLOP DDOS[2]\n GÖRÜNMEZ OLMAK[3]\n KONUM 
 seçim = int(input("İŞLEN NUMARANIZI GİRİN:"))
 
 if seçim == 1:
+  clear
   print("MASAÜTÜSÜNE GİDİOR AMQ")
-  cd /Masaüstü
+  cd $HOME
