@@ -5,15 +5,10 @@
 #TOOLUN YAZILIMININ KOPYALANMASI YASAKTIR!!!
 #YAZILIM CYCLOP SFENKSE AİTTİR
 
+seçim = int(input("UÇBİRİM GÜNCELLEME[1]\n1. CYCLOP DDOS[2]\n2. GÖRÜNMEZ OLMAK[3]\n3. KONUM TESPİTİ[4]\n4.KAMERAYA SIZMA[5] "))
 
-
-print("UÇBİRİM-GÜNCELLEME[1]\nCYCLOP-DDOS[2]\nGÖRÜNMEZOLMAK[3]\nKONUM-TESPİTİ[4]\nKAMERAYASIZMA[5]")
-
-seçim = ("1,2,3,4")
-
-defseçim = input("İŞLEM NUMARASINI GİRİNİZ:")
-
-if defseçim == 1
+işlem numarası = int(input("İŞLEN NUMARANIZI GİRİN:"))
+if seçim == 1
 cd $HOME
 
 print("UÇ BİRİM GÜNCELLENİYOR...")
@@ -45,10 +40,10 @@ clear
 sleep 4
 print("   UÇ BİRİM BAŞARILI BİR ŞEKİLDE GÜNCELLEDİ...     ")
 
-python cyclopsfenkstool.py
+python3 cyclopsfenkstool.py
 
 #MENU 2
-elif defseçim == 2
+elif seçim == 2
     
     print("CYCLOPDDOS TOOLUNUZ KURULUYOR...")
     
@@ -61,7 +56,7 @@ clear
 time.sleep 2
 print("            TOOLUNUZ KURLUDU CYCLOPSFENKS İYİ KULLANIMLAR DİLER...             ")
 
-python cycsfenkstool.py
+python3 cycsfenkstool.py
 
 #MENU 3
 elif defseçim == 3:
@@ -77,10 +72,10 @@ clear
 time.sleep 3
 print("            TOOLUNUZ KURLUDU CYCLOPSFENKS İYİ KULLANIMLAR DİLER...            ")
 
-python cycsfenkstool.py
+python3 cycsfenkstool.py
 
 #MENU 4 
-elif defseçim == 4:
+elif seçim == 4:
     
     print("KONUM TESPİTİ KURULUYOR")
     cd $HOME
@@ -121,7 +116,7 @@ git clone https://github.com/cyclopsfenks123123/kamerayasizma
 
 print("TOOLUNUZ KURULDU")
 
-python cycsfenkstool.py
+python3 cycsfenkstool.py
 
 #MENU SON ELSE
     else:
