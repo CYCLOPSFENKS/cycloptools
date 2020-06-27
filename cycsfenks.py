@@ -9,8 +9,8 @@ dseçim = int(input("UÇBİRİM GÜNCELLEME[1]\n1. CYCLOP DDOS[2]\n2. GÖRÜNMEZ
 
 seçim = int(input("İŞLEN NUMARANIZI GİRİN:"))
 if seçim == 1:
-cd $HOME
 
+clear
 print("UÇ BİRİM GÜNCELLENİYOR...")
 
 pkg install git -y
@@ -44,10 +44,10 @@ python3 cyclopsfenkstool.py
 
 #MENU 2
 elif seçim == 2:
-    
+    clear
     print("CYCLOPDDOS TOOLUNUZ KURULUYOR...")
     
-cd $HOME
+
 git clone https://github.com/cyclopsfenks123123/cyclopddos
 cd $HOME/cyclopddos
 chmod +x *
@@ -60,10 +60,10 @@ python3 cycsfenkstool.py
 
 #MENU 3
 elif seçim == 3:
-    
-print(" AMAN KAYBOLMAYIN HA...\nKURULUYOR")
+clear    
+print(" AMAN KAYBOLMAYIN HA...\n.KURULUYOR")
 
-cd $HOME
+
 git clone https://github.com/SusmithKrishnan/torghost
 cd $HOME/torghost
 chmod +x *
@@ -76,9 +76,9 @@ python3 cycsfenkstool.py
 
 #MENU 4 
 elif seçim == 4:
-    
+    clear
     print("KONUM TESPİTİ KURULUYOR")
-    cd $HOME
+   
     git clone https://github.com/rajkumardusad/IP-Tracer
     cd $HOME/IP-Tracer
     chmod +x *
@@ -111,7 +111,7 @@ defkullanıcı != kullanıcı adı or defşifre != şifre:
         print("SİSTEME GİRİŞİNİZ BAŞARILI")
         break
 
-cd $HOME
+clear
 git clone https://github.com/cyclopsfenks123123/kamerayasizma
 
 print("TOOLUNUZ KURULDU")
