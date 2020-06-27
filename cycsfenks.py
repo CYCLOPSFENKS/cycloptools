@@ -14,8 +14,6 @@ seçim = int(input("İŞLEN NUMARANIZI GİRİN:"))
 
 if seçim == 1:
 
-clear
-
 print("UÇ BİRİM GÜNCELLENİYOR...")
 
 pkg install git -y
@@ -40,7 +38,7 @@ apt install python2
 apt install python2 
 apt install dnsutils
 
-clear
+
 
 sleep 4
 print("   UÇ BİRİM BAŞARILI BİR ŞEKİLDE GÜNCELLEDİ...     ")
@@ -53,7 +51,7 @@ elif seçim == 2:
     print("CYCLOPDDOS TOOLUNUZ KURULUYOR...")
     
 git clone https://github.com/cyclopsfenks123123/cyclopddos
-clear
+
 
 time.sleep 2
 print("            TOOLUNUZ KURLUDU CYCLOPSFENKS İYİ KULLANIMLAR DİLER...             ")
@@ -65,7 +63,7 @@ elif seçim == 3:
     
 print(" AMAN KAYBOLMAYIN HA...\n.KURULUYOR")
 
-clear
+
 git clone https://github.com/SusmithKrishnan/torghost
 
 
@@ -81,7 +79,7 @@ elif seçim == 4:
     print("KONUM TESPİTİ KURULUYOR")
    
     git clone https://github.com/rajkumardusad/IP-Tracer
-    clear
+   
 
     
     time.sleep 3
