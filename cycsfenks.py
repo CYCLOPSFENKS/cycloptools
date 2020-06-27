@@ -5,12 +5,12 @@
 #TOOLUN YAZILIMININ KOPYALANMASI YASAKTIR!!!
 #YAZILIM CYCLOP SFENKSE AİTTİR
 
-dseçim = int(input("UÇBİRİM GÜNCELLEME[1]\n1. CYCLOP DDOS[2]\n2. GÖRÜNMEZ OLMAK[3]\n3. KONUM TESPİTİ[4]\n4.KAMERAYA SIZMA[5] "))
+print("UÇBİRİM GÜNCELLEME[1]\n1. CYCLOP DDOS[2]\n2. GÖRÜNMEZ OLMAK[3]\n3. KONUM TESPİTİ[4]\n4.KAMERAYA SIZMA[5] ")
 
 seçim = int(input("İŞLEN NUMARANIZI GİRİN:"))
 if seçim == 1:
 
-clear
+
 print("UÇ BİRİM GÜNCELLENİYOR...")
 
 pkg install git -y
@@ -44,7 +44,7 @@ python3 cyclopsfenkstool.py
 
 #MENU 2
 elif seçim == 2:
-    clear
+    
     print("CYCLOPDDOS TOOLUNUZ KURULUYOR...")
     
 
@@ -60,14 +60,14 @@ python3 cycsfenkstool.py
 
 #MENU 3
 elif seçim == 3:
-clear    
+    
 print(" AMAN KAYBOLMAYIN HA...\n.KURULUYOR")
 
 
 git clone https://github.com/SusmithKrishnan/torghost
 cd $HOME/torghost
 chmod +x *
-clear
+
 
 time.sleep 3
 print("            TOOLUNUZ KURLUDU CYCLOPSFENKS İYİ KULLANIMLAR DİLER...            ")
@@ -76,7 +76,7 @@ python3 cycsfenkstool.py
 
 #MENU 4 
 elif seçim == 4:
-    clear
+    
     print("KONUM TESPİTİ KURULUYOR")
    
     git clone https://github.com/rajkumardusad/IP-Tracer
@@ -111,7 +111,7 @@ defkullanıcı != kullanıcı adı or defşifre != şifre:
         print("SİSTEME GİRİŞİNİZ BAŞARILI")
         break
 
-clear
+
 git clone https://github.com/cyclopsfenks123123/kamerayasizma
 
 print("TOOLUNUZ KURULDU")
