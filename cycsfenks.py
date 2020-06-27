@@ -3,17 +3,17 @@
 #CYCLOP SFENKS TOOL KURMA TOOLU :D
 #CODER:CYCLOPSFENKS
 #TOOLUN YAZILIMININ KOPYALANMASI YASAKTIR!!!
-#YAZIL CYCLOP SFENKSE AİTTİR
+#YAZILIM CYCLOP SFENKSE AİTTİR
 
 
 
 print("UÇBİRİM-GÜNCELLEME[1]\nCYCLOP-DDOS[2]\nGÖRÜNMEZOLMAK[3]\nKONUM-TESPİTİ[4]\nKAMERAYASIZMA[5]")
 
-seçim = input("İŞLEMİNİZİN NUMARASINI GİRİNİZ:")
+seçim = ("1,2,3,4")
 
+defseçim = input("İŞLEM NUMARASINI GİRİNİZ:")
 
-#MENU 1
-if seçim == 1:
+if defseçim == 1
 cd $HOME
 
 print("UÇ BİRİM GÜNCELLENİYOR...")
@@ -48,7 +48,7 @@ print("   UÇ BİRİM BAŞARILI BİR ŞEKİLDE GÜNCELLEDİ...     ")
 python cyclopsfenkstool.py
 
 #MENU 2
-elif seçim == 2:
+elif defseçim == 2
     
     print("CYCLOPDDOS TOOLUNUZ KURULUYOR...")
     
@@ -64,7 +64,7 @@ print("            TOOLUNUZ KURLUDU CYCLOPSFENKS İYİ KULLANIMLAR DİLER...    
 python cycsfenkstool.py
 
 #MENU 3
-elif seçim == 3:
+elif defseçim == 3:
     
 print(" AMAN KAYBOLMAYIN HA...\nKURULUYOR")
 
@@ -80,7 +80,7 @@ print("            TOOLUNUZ KURLUDU CYCLOPSFENKS İYİ KULLANIMLAR DİLER...    
 python cycsfenkstool.py
 
 #MENU 4 
-elif seçim == 4:
+elif defseçim == 4:
     
     print("KONUM TESPİTİ KURULUYOR")
     cd $HOME
@@ -97,7 +97,8 @@ python cycsfenkstool.py
 
 #MENU 5
 
-elif seçim ==5
+elif defseçim == 5
+
 kullanıcı adı = "qwertyuıopğüasdfghjklşi"
 şifre = "asdfghjklşiqwertyuıopğü"
 
