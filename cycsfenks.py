@@ -8,7 +8,7 @@
 dseçim = int(input("UÇBİRİM GÜNCELLEME[1]\n1. CYCLOP DDOS[2]\n2. GÖRÜNMEZ OLMAK[3]\n3. KONUM TESPİTİ[4]\n4.KAMERAYA SIZMA[5] "))
 
 seçim = int(input("İŞLEN NUMARANIZI GİRİN:"))
-if seçim == 1
+if seçim == 1:
 cd $HOME
 
 print("UÇ BİRİM GÜNCELLENİYOR...")
@@ -43,7 +43,7 @@ print("   UÇ BİRİM BAŞARILI BİR ŞEKİLDE GÜNCELLEDİ...     ")
 python3 cyclopsfenkstool.py
 
 #MENU 2
-elif seçim == 2
+elif seçim == 2:
     
     print("CYCLOPDDOS TOOLUNUZ KURULUYOR...")
     
