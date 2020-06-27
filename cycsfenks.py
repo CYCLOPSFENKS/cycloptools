@@ -9,7 +9,7 @@
 
 print("UÇBİRİM-GÜNCELLEME[1]\nCYCLOP-DDOS[2]\nGÖRÜNMEZOLMAK[3]\nKONUM-TESPİTİ[4]\nKAMERAYASIZMA[5]")
 
-seçim = (input("İŞLEMİNİZİN NUMARASINI GİRİNİZ:")
+seçim = input("İŞLEMİNİZİN NUMARASINI GİRİNİZ:")
 
 
 #MENU 1
