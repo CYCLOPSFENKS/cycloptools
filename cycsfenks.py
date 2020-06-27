@@ -5,9 +5,9 @@
 #TOOLUN YAZILIMININ KOPYALANMASI YASAKTIR!!!
 #YAZILIM CYCLOP SFENKSE AİTTİR
 
-seçim = int(input("UÇBİRİM GÜNCELLEME[1]\n1. CYCLOP DDOS[2]\n2. GÖRÜNMEZ OLMAK[3]\n3. KONUM TESPİTİ[4]\n4.KAMERAYA SIZMA[5] "))
+dseçim = int(input("UÇBİRİM GÜNCELLEME[1]\n1. CYCLOP DDOS[2]\n2. GÖRÜNMEZ OLMAK[3]\n3. KONUM TESPİTİ[4]\n4.KAMERAYA SIZMA[5] "))
 
-işlem numarası = int(input("İŞLEN NUMARANIZI GİRİN:"))
+seçim = int(input("İŞLEN NUMARANIZI GİRİN:"))
 if seçim == 1
 cd $HOME
 
@@ -59,7 +59,7 @@ print("            TOOLUNUZ KURLUDU CYCLOPSFENKS İYİ KULLANIMLAR DİLER...    
 python3 cycsfenkstool.py
 
 #MENU 3
-elif defseçim == 3:
+elif seçim == 3:
     
 print(" AMAN KAYBOLMAYIN HA...\nKURULUYOR")
 
