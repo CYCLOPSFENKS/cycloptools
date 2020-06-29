@@ -159,7 +159,7 @@ elif [[ $islem == 8 || $islem == 08 ]]; then
 #MENÜ SON
      else   
 	clear
-        echo -e '\033[36;40;1m GEÇERSİZ İŞLEM NUMARASI...'	
+        echo -e '\033[36;40;1m                    GEÇERSİZ İŞLEM NUMARASI...'	
 	sleep 1
 	clear 
 	bash cycloptools.sh
