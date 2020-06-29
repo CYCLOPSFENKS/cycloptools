@@ -4,21 +4,11 @@
 echo -e '\033[31;40;1m
 
 
-                                ░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄
-                                ░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄
-                                ░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█
-                                ░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░█
-                                ░▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░█
-                                █▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒█
-                                █▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█
-                                ░█▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█
-                                ░░█░░▀▄▀█▄▄░█▀▀▀▄▄▄▄▀▀█▀██░█
-                                ░░░█░░██░░▀█▄▄▄█▄▄█▄████░█
-                                ░░░░█░░░▀▀▄░█░░░█░███████░█
-                                ░░░░░▀▄░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█
-                                ░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░█
-                                ░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░█
-                                ░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░█
+                    █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+                    █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
+                    █░░║║║╠─║─║─║║║║║╠─░░█
+                    █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█
+                    █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
 
          \e[35m              Code  : CYCLOPSFENKS     	       
 	\e[32m 	         İnstagram : CYCLOPSFENKS      
@@ -31,12 +21,10 @@ echo -e '\033[31;40;1m
 \e[32m[4]\e[33mTORGHOST                     \e[32m[8]\e[33mZPHİSHER
 
 
-
-#MENÜ1            
+            
 
 read -p "İŞEM NUMARASI:" İslem
-            
-            if [[ $islem == 1 || $islem == 01 ]];then
+if [[ $islem == 1 || $islem == 01 ]];then
             
 pkg install git -y
 pkg install python python2
@@ -72,15 +60,15 @@ bash cycloptools.sh
 
 #menü 2
 elif [[ $islem == 2 || $islem == 02 ]]; then
-            clear
-            cd $HOME
-            git clone https://github.com/cyclopsfenks123123/cyclopddos
-            cd $HOME/cylopddos
-            chmod +x *
-            sleep 2
-            echo -e '\033[31;40;1m              CYCLOP DDOS KURULDU!'
-            cd $HOME/cycloptools
-            bash cycloptools.sh
+clear
+cd $HOME
+git clone https://github.com/cyclopsfenks123123/cyclopddos
+cd $HOME/cylopddos
+chmod +x *
+sleep 2
+echo -e '\033[31;40;1m              CYCLOP DDOS KURULDU!'
+cd $HOME/cycloptools
+bash cycloptools.sh
 
 
 
@@ -94,7 +82,7 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
             sleep 2
             echo -e '\033[31;40;1m              IP-TRACER KURULDU!'
             cd $HOME/cycloptools
-            bash cycloptools.sh
+	    bash cycloptools.sh
 
 
             
